@@ -1,0 +1,340 @@
+/*Inicio "index"*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-index {
+    font-family: 'Roboto', sans-serif;
+    background-image: radial-gradient(circle at 45.42% 75.96%, #acc6f0 0, #b4c4ef 3.57%, #bcc2ee 7.14%, #c3c0ec 10.71%, #cbbee9 14.29%, #d2bce6 17.86%, #d8bae1 21.43%, #deb8dd 25%, #e4b7d8 28.57%, #e8b6d2 32.14%, #ecb5cc 35.71%, #efb5c7 39.29%, #f1b4c1 42.86%, #f2b5bb 46.43%, #f2b5b5 50%, #f1b6b0 53.57%, #f0b7aa 57.14%, #eeb8a6 60.71%, #ebbaa2 64.29%, #e7bb9e 67.86%, #e3bd9c 71.43%, #debf9a 75%, #d9c198 78.57%, #d4c398 82.14%, #cec599 85.71%, #c7c79a 89.29%, #c1c99c 92.86%, #baca9f 96.43%, #b3cca2 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Start Header*/
+h2 {
+    background-color: darkblue;
+    color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 300px;
+    justify-content: end;
+    font-size: 50px;
+    color: darkblue;
+}
+
+.container_nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.h1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.logo {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: white;
+}
+
+.secciones {
+    grid-area: 3 / 1 / 4 / 2;
+    margin-left: 300px;
+}
+
+.foto-negra-1 {
+    margin-left: 200px;
+}
+
+h3 {
+    font-size: 30px;
+    background-attachment: fixed;
+}
+
+nav {
+
+    padding: 10px;
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    list-style-type: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*End Header*/
+.mikao-osui {
+    text-align: center;
+}
+
+/*Footer*/
+.redes {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    height: auto;
+    width: auto;
+}
+
+/*Fin "index"*/
+
+/*inicio estilos para la seccion "Quines somos"*/
+.body-quienes-somos {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+/*Fin estilos para la seccion "Quines somos"*/
+
+/*Inicio estilos para la seccion "Cursos"*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    text-align: center;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div4 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.label-nombre {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.label-apellido {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.label-email {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.label-telefono {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.input-submit {
+    text-align: center;
+}
+
+/*footer*/
+/*Fin estilos para la seccion "Cursos"*/
+/*Inicio estilos para la seccion "Que es el Reiki"*/
+.body_que_es_el_reiki {
+    background-image: url('imagenes/piedras_arena.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 425px) {
+    nav {
+
+        padding: 10px;
+        background-repeat: no-repeat;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .secciones {
+        position: relative;
+    }
+
+    a {
+        -webkit-transition: 1s linear;
+        transition: 1s linear;
+    }
+
+    a :hover {
+        -webkit-transform: scale(.5);
+        transform: scale(.5);
+    }
+}
+
+/*Inicio Media Queri*/
+@media screen and (min-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .body-index {
+        font-family: 'Roboto', sans-serif;
+        background-image: url('imagenes/aconcagua-montana-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    /*Start Header*/
+    h2 {
+        background-color: darkblue;
+        color: #f2f2f2;
+    }
+
+    h1 {
+        margin-left: 50px;
+        justify-content: center;
+        font-size: 30px;
+        color: darkblue;
+    }
+
+    .foto-negra-1 {
+        margin-left: 350px;
+        position: relative;
+        -webkit-transition: 1s linear;
+        transition: 1s linear;
+    }
+
+    .foto-negra-1 :hover {
+        -webkit-transform: scale(.5);
+        transform: scale(.5);
+    }
+
+
+
+    .h3 {
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    nav {
+
+        padding: 10px;
+        background-repeat: no-repeat;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+
+    nav ul li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /*End Header*/
+    .mikao-osui {
+        margin-right: 50px;
+    }
+
+    /*Footer*/
+    .redes {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .secciones {
+        position: relative;
+    }
+
+    a {
+        -webkit-transition: 1s linear;
+        transition: 1s linear;
+    }
+
+    a :hover {
+        -webkit-transform: scale(.5);
+        transform: scale(.5);
+    }
+}
+
+/*Fin Media queri index*/
