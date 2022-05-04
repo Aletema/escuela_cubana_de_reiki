@@ -335,6 +335,11 @@ body {
         -webkit-transform: scale(.5);
         transform: scale(.5);
     }
+    .volver-arriba {
+        
+       max-height: max-content;
+       max-width: max-content;
+    }
 }
 
 /*Fin Media queri index*/
