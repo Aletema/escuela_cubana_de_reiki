@@ -22,7 +22,7 @@ h1 {
     text-align: center;
     margin-left: 300px;
     justify-content: end;
-    font-size: 50px;
+    font-size: 30px;
     color: darkblue;
 }
 
@@ -49,7 +49,7 @@ h1 {
 }
 
 .foto-negra-1 {
-    margin-left: 200px;
+    justify-content: center;
 }
 
 h3 {
@@ -79,7 +79,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -331,16 +331,17 @@ body {
         transition: 1s linear;
     }
 
-    a :hover {
+    a img :hover {
         -webkit-transform: scale(.5);
         transform: scale(.5);
     }
+
     .volver-arriba {
-        
-       max-height: max-content;
-       max-width: max-content;
+
+        max-height: max-content;
+        max-width: max-content;
     }
-    
+
 }
 
 /*Fin Media queri index*/

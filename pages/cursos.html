@@ -15,18 +15,42 @@
 <body>
     <!--Start Header-->
     <header>
-        <nav>
-            <h1>Cursos</h1>
-            <ul>
-                <a href="../index.html"><img src="../imagenes/Dimensiones-personalizadas-200x100-px-logotania.jpeg"
-                        alt="Logo del sito"></a>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./quienes-somos.html">Quienes Somos</a></li>
-                <li><a href="./cursos.html">Cursos</a></li>
-                <li><a href="./que-es-el-reiki.html">Que es El Reiki</a></li>
-                <li><a href="./otros-servicios.html">Otros Servicios</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <h1>Cursos</h1>
+        <a href="../index.html"><img src="../imagenes/Dimensiones-personalizadas-200x100-px-logotania.jpeg"
+                alt="Logo del sito"></a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./quienes-somos.html">Quienes
+                                Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cursos.html">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./que-es-el-reiki.html">Que es El Reiki</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Mas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./otros-servicios.html">Servicios</a></li>
+                                <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <div class="foto-negra-1">
             <img src="../imagenes/negra-1.jpg" alt="imagen imponiendo manos">
