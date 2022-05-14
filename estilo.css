@@ -104,6 +104,7 @@ nav ul li a {
 /*inicio estilos para la seccion "Quines somos"*/
 .body-quienes-somos {
     font-family: 'Roboto', sans-serif;
+   
 }
 
 .container {
@@ -250,6 +251,21 @@ body {
         background-size: cover;
         background-attachment: fixed;
     }
+    .body-quienes-somos{
+        font-family: 'Roboto', sans-serif;
+        background-image: url('imagenes/piedras_arena.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .body_que_es_el_reiki{
+        font-family: 'Roboto', sans-serif;
+        background-image: url('imagenes/piedras_arena.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
 
     /*Start Header*/
     h2 {
@@ -258,6 +274,7 @@ body {
     }
 
     h1 {
+        text-align: center;
         margin-left: 50px;
         justify-content: center;
         font-size: 30px;
@@ -316,12 +333,12 @@ body {
     }
 
     /*Footer*/
-    .redes {
-        position: fixed;
+    
+.volver-arriba{
+    position: fixed;
         bottom: 15px;
         right: 15px;
-    }
-
+}
     .secciones {
         position: relative;
     }
