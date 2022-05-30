@@ -6,7 +6,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   /*background-image: radial-gradient(circle at 45.42% 75.96%, #acc6f0 0, #b4c4ef 3.57%, #bcc2ee 7.14%, #c3c0ec 10.71%, #cbbee9 14.29%, #d2bce6 17.86%, #d8bae1 21.43%, #deb8dd 25%, #e4b7d8 28.57%, #e8b6d2 32.14%, #ecb5cc 35.71%, #efb5c7 39.29%, #f1b4c1 42.86%, #f2b5bb 46.43%, #f2b5b5 50%, #f1b6b0 53.57%, #f0b7aa 57.14%, #eeb8a6 60.71%, #ebbaa2 64.29%, #e7bb9e 67.86%, #e3bd9c 71.43%, #debf9a 75%, #d9c198 78.57%, #d4c398 82.14%, #cec599 85.71%, #c7c79a 89.29%, #c1c99c 92.86%, #baca9f 96.43%, #b3cca2 100%);*/
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -16,17 +16,14 @@ h2 {
   background-color: pink;
   color: black;
 }
-.h2_cursos {
-  margin-left: 200px;
-}
 
 header h1 {
   text-align: center;
   margin-left: 300px;
   margin-top: 50px;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   font-size: 30px;
   color: darkblue;
 
@@ -48,7 +45,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
+
 }
 
 nav ul li {
@@ -66,16 +63,17 @@ nav ul li a {
   font-family: 'Roboto', sans-serif;
   margin-left: 50px;
 }
+
 .logo {
   max-width: 150px;
   max-height: 75px;
-  margin-left: 75px;
+  margin-top: 50px;
 }
 
 .foto-negra-1 {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -87,4 +85,5 @@ h3 {
 .mikao-osui {
   text-align: center;
 }
+
 /*# sourceMappingURL=estilo.css.map */
