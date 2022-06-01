@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'roboto'sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -15,18 +15,16 @@ h2 {
   background-color: pink;
   color: black;
 }
-
 header h1 {
   text-align: center;
   margin-left: 300px;
   margin-top: 50px;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   font-size: 30px;
   color: darkblue;
 }
-
 h3 {
   font-size: 20px;
   background-attachment: fixed;
@@ -74,8 +72,8 @@ a {
 
 .foto-negra-1 {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -88,9 +86,8 @@ h3 {
   text-align: center;
 }
 
-.border {
-  border-color: pink;
-  border-width: 2px;
-  border-style: solid;
+.bordear {
+  border: 5px solid pink;
 }
+
 /*# sourceMappingURL=estilo.css.map */
