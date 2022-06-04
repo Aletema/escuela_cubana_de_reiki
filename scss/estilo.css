@@ -15,16 +15,18 @@ h2 {
   background-color: pink;
   color: black;
 }
+
 header h1 {
   text-align: center;
   margin-left: 300px;
   margin-top: 50px;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   font-size: 30px;
   color: darkblue;
 }
+
 h3 {
   font-size: 20px;
   background-attachment: fixed;
@@ -61,20 +63,21 @@ nav ul li a {
   max-height: 75px;
 }
 
-li:hover {
-  color: blue;
+a {
+  -webkit-transition: color .5s;
+  transition: color .5s;
 }
 
-a {
-  -webkit-transition: color 0.8s linear 0.2s;
-  transition: color 0.8s linear 0.2s;
+a :hover {
+  color: darkblue;
 }
 
 .foto-negra-1 {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
+  margin-top: 30px;
 }
 
 h3 {
@@ -84,10 +87,41 @@ h3 {
 
 .mikao-osui {
   text-align: center;
+  margin-top: 30px;
 }
 
 .bordear {
   border: 5px solid pink;
+  margin-top: 30px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+div .noticia {
+  width: 100%;
+  margin: 20px auto;
+  background-color: pink;
+  color: blue;
+  padding: 15px;
+}
+
+div.noticia img.izquierda {
+  float: left;
+  margin-right: 15px;
+}
+
+div img .achicar {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+div .reset {
+  clear: both;
+}
+
+p {
+  font-family: "baloo" sans-serif;
+  font-size: 20px;
+}
 /*# sourceMappingURL=estilo.css.map */

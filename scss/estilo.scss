@@ -60,15 +60,16 @@ nav {
     max-width: 150px;
     max-height: 75px;
 }
-li:hover {
-    color: blue;
+
+a {transition: color .5s;
 }
-a {
-    transition: color 0.8s linear 0.2s;
+a :hover{
+   color: darkblue;
 }
 .foto-negra-1 {
     justify-content: center;
     text-align: center;
+    margin-top: 30px;   
 }
 h3 {
     font-size: 20px;
@@ -76,8 +77,45 @@ h3 {
 }
 .mikao-osui {
     text-align: center;
+    margin-top: 30px;
 }
 .bordear {
     border: 5px solid $bordes-de-targetas;
-
+    margin-top: 30px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
+div{
+    .noticia {
+        width: 100%;
+        margin: 20px auto;
+        background-color: pink;
+        color: blue;
+        padding: 15px;
+        
+    }
+   
+  }
+    div.noticia img.izquierda {
+    float: left;
+    margin-right: 15px;
+    
+  }
+  div{
+      img{
+        .achicar{
+            max-width: 400px;
+            max-height: 400px;
+        }
+      }
+  }
+  div {
+      .reset {
+          clear: both;
+      }
+  }
+  p {
+     font-family: $tipografia-parrafos;
+     font-size: 20px;
+  }
