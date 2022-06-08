@@ -1,5 +1,6 @@
 $tipografia-parrafos: 'baloo'sans-serif;
 $bordes-de-targetas: pink;
+
 * {
     margin: 0;
     padding: 0;
@@ -11,11 +12,13 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
 /*Start Header*/
 h2 {
     background-color: pink;
     color: black;
 }
+
 header {
 
     h1 {
@@ -27,10 +30,12 @@ header {
         color: darkblue;
     }
 }
+
 h3 {
     font-size: 20px;
     background-attachment: fixed;
 }
+
 nav {
     padding: 10px;
     background-repeat: no-repeat;
@@ -56,29 +61,36 @@ nav {
         }
     }
 }
+
 .logo {
     max-width: 150px;
     max-height: 75px;
 }
 
-a {transition: color .5s;
+a {
+    transition: color .5s;
 }
-a :hover{
-   color: darkblue;
+
+a :hover {
+    color: darkblue;
 }
+
 .foto-negra-1 {
     justify-content: center;
     text-align: center;
-    margin-top: 30px;   
+    margin-top: 30px;
 }
+
 h3 {
     font-size: 20px;
     background-attachment: fixed;
 }
+
 .mikao-osui {
     text-align: center;
     margin-top: 30px;
 }
+
 .bordear {
     border: 5px solid $bordes-de-targetas;
     margin-top: 30px;
@@ -87,35 +99,46 @@ h3 {
     margin-left: auto;
 }
 div{
+    .mano{
+        max-width: 150px;
+        max-height: 75px;
+       text-align: end;
+    }
+}
+
+div {
     .noticia {
         width: 100%;
         margin: 20px auto;
         background-color: pink;
         color: blue;
         padding: 15px;
-        
+
     }
-   
-  }
-    div.noticia img.izquierda {
+
+}
+div.noticia img.izquierda {
     float: left;
     margin-right: 15px;
-    
   }
-  div{
-      img{
-        .achicar{
+  
+
+div {
+    img {
+        .achicar {
             max-width: 400px;
             max-height: 400px;
         }
-      }
-  }
-  div {
-      .reset {
-          clear: both;
-      }
-  }
-  p {
-     font-family: $tipografia-parrafos;
-     font-size: 20px;
-  }
+    }
+}
+
+div {
+    .reset {
+        clear: both;
+    }
+}
+
+p {
+    font-family: $tipografia-parrafos;
+    font-size: 20px;
+}
