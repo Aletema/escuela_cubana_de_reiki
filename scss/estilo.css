@@ -19,7 +19,7 @@ h2 {
 header h1 {
   text-align: center;
   margin-left: 300px;
-  margin-top: 50px;
+  margin-top: 100px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -63,6 +63,10 @@ nav ul li a {
   max-height: 75px;
 }
 
+.logo-solo {
+  border-right: 50px;
+}
+
 a {
   -webkit-transition: color .5s;
   transition: color .5s;
@@ -98,10 +102,11 @@ h3 {
   margin-left: auto;
 }
 
-div .mano {
+div img .mano {
   max-width: 150px;
   max-height: 75px;
   text-align: end;
+  margin-bottom: 100px;
 }
 
 div .noticia {
@@ -129,5 +134,9 @@ div .reset {
 p {
   font-family: "baloo" sans-serif;
   font-size: 20px;
+}
+
+h6 a img {
+  background-color: pink;
 }
 /*# sourceMappingURL=estilo.css.map */
