@@ -24,7 +24,7 @@ header {
     h1 {
         text-align: center;
         margin-left: 300px;
-        margin-top: 100px;
+        margin-top: 150px;
         justify-content: end;
         font-size: 30px;
         color: darkblue;
@@ -65,10 +65,6 @@ nav {
 .logo {
     max-width: 150px;
     max-height: 75px;
-    
-}
-.logo-solo{
-    border-right: 50px;
 }
 
 a {
@@ -102,15 +98,16 @@ h3 {
     margin-right: auto;
     margin-left: auto;
 }
-div{
-   img{
-    .mano{
-        max-width: 150px;
-        max-height: 75px;
-       text-align: end;
-       margin-bottom: 100px;
+
+div {
+    img {
+        .mano {
+            max-width: 150px;
+            max-height: 75px;
+            text-align: end;
+            margin-bottom: 100px;
+        }
     }
-   }
 }
 
 div {
@@ -122,11 +119,13 @@ div {
         padding: 15px;
     }
 }
+
 div.noticia img.izquierda {
     float: left;
     margin-right: 15px;
-  }
-  div {
+}
+
+div {
     img {
         .achicar {
             max-width: 400px;
@@ -134,18 +133,21 @@ div.noticia img.izquierda {
         }
     }
 }
+
 div {
     .reset {
         clear: both;
     }
 }
+
 p {
     font-family: $tipografia-parrafos;
     font-size: 20px;
 }
+
 h6 {
-    a{
-        img{
+    a {
+        img {
             background-color: pink;
         }
     }
