@@ -94,7 +94,7 @@ h3 {
 .bordear {
     border: 5px solid $bordes-de-targetas;
     margin-top: 30px;
-    text-align: center;
+    text-align: start;
     margin-right: auto;
     margin-left: auto;
 }
@@ -123,6 +123,8 @@ div {
 div.noticia img.izquierda {
     float: left;
     margin-right: 15px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 div {
@@ -143,6 +145,7 @@ div {
 p {
     font-family: $tipografia-parrafos;
     font-size: 20px;
+    
 }
 
 h6 {
@@ -151,4 +154,8 @@ h6 {
             background-color: pink;
         }
     }
+}
+.body-quienes-somos{
+    background-image: url('../imagenes/mar-cuba.webp');
+   
 }
