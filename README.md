@@ -1,1 +1,1 @@
-# coder_reiki
+# escuela_cubana_de_reiki
